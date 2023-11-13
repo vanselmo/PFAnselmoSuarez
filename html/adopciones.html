@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Nuevo Mejor Amigo</title>
+    <!-- CSS BOOTSRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body class="container-fluid">
+    <header class="encabezado">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="tamLogo" src="../img/logonuevo2.png" alt="Logo de Un Nuevo Mejor Amigo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fuentesNav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link opcionNavegador" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opcionNavegador" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opcionNavegador" href="adopciones.html">¡Quiero adoptar!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opcionNavegador" href="donaciones.html">Donaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opcionNavegador" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link opcionNavegador" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CAROUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/carousel1.jpg" class="d-block w-100" alt="Foto perros y gatos">
+                <div class="carousel-caption d-none d-md-block textoCarousel">
+                    <h5>¡Muchas gracias por formar parte de Un nuevo mejor amigo!</h5>
+                    <p>Tu apoyo hace realidad una mejor vida para ellos</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carousel2.jpg" class="d-block w-100" alt="Foto de perro y gato con su adoptante">
+                <div class="carousel-caption d-none d-md-block textoCarousel">
+                    <h5>Más de 1.000 perros y gatos han encontrado hogar en este año</h5>
+                    <p>Juntos hemos construido hogares llenos de amor y alegría para estos increíbles compañeros</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carousel3.jpg" class="d-block w-100" alt="Foto de nuestro petshopp">
+                <div class="carousel-caption d-none d-md-block textoCarousel">
+                    <h5>¿Conoces nuestra tienda de mascotas?</h5>
+                    <p>En cada compra, estás construyendo puentes hacia un refugio más fuerte</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- BANNER -->
+    <div id="banner">
+        <img class="img-fluid" src="../img/banner.png" alt="Foto de perro y gato para banner">
+    </div>
+
+    <main>
+        <div class="contenedorAnimales">
+            <div>
+                <h2 class="tituloAnimales">Perros que están esperando un hogar</h2>
+            </div>
+
+            <!-- FOTOS PERROS -->
+            <div class="row g-4">
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/perro1.jpg" class="card-img-top" alt="Foto perro Pol">
+                    <div class="card-body">
+                        <h3 class="card-title">Pol</h3>
+                        <p class="card-text">Edad: 1 año</p>
+                        <p class="card-text">Sexo: macho</p>
+                        <p class="card-text">Tamaño: mediano</p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/perro2.jpg" class="card-img-top" alt="Foto perra Luna">
+                    <div class="card-body">
+                        <h3 class="card-title">Luna</h3>
+                        <p class="card-text">Edad: 3 años</p>
+                        <p class="card-text">Sexo: hembra</p>
+                        <p class="card-text">Tamaño: chico</p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/perro3.jpg" class="card-img-top" alt="Foto perro Tot">
+                    <div class="card-body">
+                        <h3 class="card-title">Tot</h3>
+                        <p class="card-text">Edad: 4 años</p>
+                        <p class="card-text">Sexo: macho</p>
+                        <p class="card-text">Tamaño: chico</p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/perro4.jpg" class="card-img-top" alt="Foto perra Atila">
+                    <div class="card-body">
+                        <h3 class="card-title">Atila</h3>
+                        <p class="card-text">Edad: 7 años</p>
+                        <p class="card-text">Sexo: macho</p>
+                        <p class="card-text">Tamaño: grande</p>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <h2  class="tituloAnimales">Gatos que están esperando un hogar</h2>
+            </div>
+
+            <!-- FOTOS GATOS -->
+            <div class="row">
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/gato1.jpg" class="card-img-top" alt="Foto gato Nicky">
+                    <div class="card-body">
+                        <h3 class="card-title">Nicky</h3>
+                        <p class="card-text">Edad: 9 meses</p>
+                        <p class="card-text">Sexo: macho</p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/gato2.jpg" class="card-img-top" alt="Foto gato Tom">
+                    <div class="card-body">
+                        <h3 class="card-title">Tom</h3>
+                        <p class="card-text">Edad: 9 meses</p>
+                        <p class="card-text">Sexo: macho</p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/gato3.jpg" class="card-img-top" alt="Foto gato Simont">
+                    <div class="card-body">
+                        <h3 class="card-title">Simón</h3>
+                        <p class="card-text">Edad: 6 años</p>
+                        <p class="card-text">Sexo: macho</p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img class="imgAnimales" src="../img/gato4.jpg" class="card-img-top" alt="Foto gata Pelusa">
+                    <div class="card-body">
+                        <h3 class="card-title">Pelusa</h3>
+                        <p class="card-text">Edad: 5 meses</p>
+                        <p class="card-text">Sexo: hembra</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-body-tertiary text-dark pt-5 pb-5 text-center marginFooter">
+        <P> 2023 &copy; Un Nuevo Mejor Amigo - Todos los derechos reservados </P>
+    </footer>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
