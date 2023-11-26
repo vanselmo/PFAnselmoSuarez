@@ -1,7 +1,5 @@
 /* HOME */
 
 .parrafoFinal {
-    color: $color-naranja;
-    text-transform: uppercase;
-    font-weight: bold;
+    @include estilo-parrafo-final-home
 }

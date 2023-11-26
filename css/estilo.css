@@ -12,7 +12,7 @@ body {
 
 .fuentesNav {
   font-size: 17px;
-  padding: 10;
+  padding: 10px;
 }
 
 .opcionNavegador {
@@ -34,13 +34,14 @@ body {
 
 /* MAIN  */
 h1 {
-  font-size: 24px;
+  /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
   font-weight: bold;
-  text-transform: uppercase;
   color: #f0b975;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
   margin-top: 90px;
   margin-bottom: 40px;
-  text-align: center;
 }
 
 .fraseFinal {
@@ -56,11 +57,12 @@ h1 {
 
 /* ADOPCIONES */
 .tituloAdopciones {
+  /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
+  font-weight: bold;
   color: #f0b975;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 20px;
   text-align: center;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -71,11 +73,12 @@ h1 {
 }
 
 .tituloVideo {
+  /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
+  font-weight: bold;
   color: #f0b975;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 20px;
   text-align: center;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -104,6 +107,14 @@ footer {
 /* MEDIAS QUERIES */
 /* Media Query para dispositivos pequeños (tamaño movil)*/
 @media (max-width: 767px) {
+  /* Media query body (tamaño movil) */
+  body {
+    font-size: 15px;
+  }
+  h1 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
   /* Media query header (tamaño movil) */
   .navbar {
     text-align: left;
@@ -122,17 +133,18 @@ footer {
   #carouselExampleAutoplaying {
     display: none;
   }
-  /* Media Query Body (tamaño movil)*/
-  h1 {
-    margin-top: 40px;
-  }
   /* Media Query Footer (tamaño movil) */
   .marginFooter {
     margin-top: 10px;
   }
+  /* Media Query Cards (tamaño movil)*/
+  .contenedorCard {
+    width: 70vw;
+    height: auto;
+  }
   /* Media Query  Noticias* (tamaño movil)*/
   .tituloVideo {
-    font-size: 15px;
+    font-size: 16px;
   }
   /* Media Query Tienda (tamaño movil)*/
   .mapa {
@@ -142,6 +154,13 @@ footer {
 }
 /* Media Query para dispositivos medianos (tamaño tablet)*/
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Media query body (tamaño tablet) */
+  body {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 22px;
+  }
   /* Media query header (tamaño tablet) */
   .navbar {
     text-align: left;
@@ -162,7 +181,7 @@ footer {
   }
   /* Media Query  Noticias* (tamaño tablet)*/
   .tituloVideo {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 /* Media Query para dispositivos grandes (pc) */

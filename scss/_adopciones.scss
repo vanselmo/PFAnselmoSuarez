@@ -1,11 +1,9 @@
 /* ADOPCIONES */
 
 .tituloAdopciones {
-    color: $color-naranja;
-    text-transform: uppercase;
-    font-weight: bold;
+    /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
+    @include estilo-titulo-subtitulo;
     font-size: $subtitulo-tamano;
-    text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
 }

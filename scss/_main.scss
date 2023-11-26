@@ -1,13 +1,11 @@
 /* MAIN  */
 
 h1 {
+    /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
+    @include estilo-titulo-subtitulo;
     font-size: $titulo-tamano; 
-    font-weight: bold;
-    text-transform: uppercase;
-    color: $color-naranja;
     margin-top: 90px;
     margin-bottom: 40px;
-    text-align: center;
 }
 
 .fraseFinal {

@@ -1,0 +1,13 @@
+
+@mixin estilo-titulo-subtitulo {
+    font-weight: bold;
+    color: $color-naranja;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@mixin estilo-parrafo-final-home {
+    color: $color-naranja;
+    text-transform: uppercase;
+    font-weight: bold;
+}
