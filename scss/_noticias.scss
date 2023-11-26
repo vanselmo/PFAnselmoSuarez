@@ -1,0 +1,15 @@
+/* NOTICIAS */
+
+.contenedorVideos {
+    gap: 20px;
+}
+
+.tituloVideo {
+    color: $color-naranja;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $subtitulo-tamano;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

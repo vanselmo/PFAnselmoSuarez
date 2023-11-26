@@ -1,0 +1,20 @@
+/* HEADER */
+
+.tamLogo {
+    width: 130px;
+}
+
+.fuentesNav {
+    font-size: 17px;
+    padding: 10;
+}
+
+.opcionNavegador {
+    transition: all 0.8s
+}
+
+.opcionNavegador:hover {
+    color: $color-naranja;
+    font-size: 19px;
+    font-weight: bold;
+}

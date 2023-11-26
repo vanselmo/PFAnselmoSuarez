@@ -1,0 +1,17 @@
+//CARDS
+
+.imgCard {
+    padding: 5px;
+    border-radius: $border-radius-imagenes;
+}
+
+.textoCard {
+    text-align: center;
+}
+
+.tituloCard {
+    font-size: $titulo-card-tamano;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
