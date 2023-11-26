@@ -3,7 +3,7 @@
 h1 {
     /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
     @include estilo-titulo-subtitulo;
-    font-size: $titulo-tamano; 
+    font-size: $titulo-tamano;
     margin-top: 90px;
     margin-bottom: 40px;
 }

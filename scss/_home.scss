@@ -3,3 +3,13 @@
 .parrafoFinal {
     @include estilo-parrafo-final-home
 }
+
+.imgHome {
+    padding: 20px;
+}
+
+.tituloCardHome {
+    /*mixin:  font-weight: bold; color: $color-naranja; text-transform: uppercase; text-align: center;*/
+    @include estilo-titulo-subtitulo;
+    font-size: $subtitulo-tamano;
+}

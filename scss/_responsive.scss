@@ -2,6 +2,7 @@
 
 /* Media Query para dispositivos pequeños (tamaño movil)*/
 @media (max-width: 767px) {
+
     /* Media query body (tamaño movil) */
     body {
         font-size: $tamano-fuente-chico;
@@ -49,6 +50,11 @@
         height: auto;
     }
 
+    /*Media Query Home (tamaño movil)*/
+    .tituloCardHome {
+        font-size: $subtitulo-tamano-chico;
+    }
+
     /* Media Query  Noticias* (tamaño movil)*/
 
     .tituloVideo {
@@ -70,6 +76,7 @@
     body {
         font-size: $tamano-fuente-mediano;
     }
+
     h1 {
         font-size: $titulo-tamano-mediano;
     }
@@ -96,6 +103,11 @@
 
     #banner {
         display: none;
+    }
+
+    /*Media Query Home (tamaño tablet)*/
+    .tituloCardHome {
+        font-size: $subtitulo-tamano-mediano;
     }
 
     /* Media Query  Noticias* (tamaño tablet)*/
